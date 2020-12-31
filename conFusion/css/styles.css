@@ -1,0 +1,42 @@
+.jumbotron{
+    background-color: blueviolet;
+}
+.navbar{
+    background-color: darkblue;
+       
+}
+.badgedol{
+    border-radius: 20px;
+}
+.footer{
+    background-color: blueviolet;
+}
+.show-menu{
+    padding-top: 200px;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+.lightdark{
+    color: darkgray;
+}
+@media screen and(max-width:576px){
+
+}

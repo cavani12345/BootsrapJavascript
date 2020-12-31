@@ -1,0 +1,20 @@
+.jumbotron{
+    background-color:blueviolet
+}
+.footer{
+    background-color: rgb(245, 80, 245);
+}
+
+.mybtn{
+    border: 1px solid white;
+    opacity: 0.5;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+@media screen and (max-width:576px){
+  
+}

@@ -1,0 +1,17 @@
+// npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
+/* the after add "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+*/
+{
+
+
+"scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+  },
+}
+// also update start as follow   "start": "npm run watch:all",
+// finally run the server , npm start
